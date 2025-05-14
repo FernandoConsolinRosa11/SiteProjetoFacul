@@ -1,13 +1,13 @@
 <div id="carouselExampleAutoplaying" class="carousel slide w-100" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="img/404.png" class="d-block w-100" alt="...">
+      <img src="img/teste1.jpg" class="d-block w-100" alt="..." style="height: 400px; object-fit: cover;">
     </div>
     <div class="carousel-item">
-      <img src="img/404.png" class="d-block w-100" alt="...">
+      <img src="img/teste2.jpg" class="d-block w-100" alt="..." style="height: 400px; object-fit: cover;">
     </div>
     <div class="carousel-item">
-      <img src="img/404.png" class="d-block w-100" alt="...">
+      <img src="img/teste3.jpg" class="d-block w-100" alt="..." style="height: 400px; object-fit: cover;">
     </div>
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
@@ -32,7 +32,7 @@
       <path d="M5 5a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
       <path d="M3 13v-1a2 2 0 0 1 2 -2h2" />
     </svg>QUEM SOMOS</h2>
-  <hr>
+
   <div class="container-flex">
     <div>
       <img src="img/whatsapp.png" alt="" class="w-100">
@@ -46,7 +46,7 @@
       </p>
     </div>
   </div>
-  <section id="pag">
+  <section>
 
     <h2 class="title"><svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none"
         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -60,9 +60,14 @@
         <path d="M19 21v1m0 -8v1" />
       </svg>Formas de pagamento</h2>
     <div class="container-flex">
-      <div class="card"><img src="img/bblogo" alt="banco do brasil" class="w-100 icon"><p class="text-center">Banco do Brasil</p></div>
-      <div class="card"></div>
-      <div class="card"></div>
+      <div class="card"><img src="img/bancodobrasil.png" alt="banco do brasil" class="w-100" ><p class="text-center">Banco do Brasil</p></div>
+      <div class="card"><img src="img/itau.png" alt="itaú" class="w-100"><p class="text-center">Banco Itaú</p></div>
+      <div class="card"><img src="img/bradesco.png" alt="bradesco" class="w-100"><p class="text-center">Banco Bradesco</p></div>
     </div>
+  </section>
+  
+  <section>
+    <h2 class="title"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="currentColor"  class="icon icon-tabler icons-tabler-filled icon-tabler-map-pin"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18.364 4.636a9 9 0 0 1 .203 12.519l-.203 .21l-4.243 4.242a3 3 0 0 1 -4.097 .135l-.144 -.135l-4.244 -4.243a9 9 0 0 1 12.728 -12.728zm-6.364 3.364a3 3 0 1 0 0 6a3 3 0 0 0 0 -6z" /></svg>Localização</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!4v1747248805533!6m8!1m7!1s4S7F2vJLTnQGC09waew7qA!2m2!1d-23.77268226239625!2d-52.45062902882815!3f106.29294887892482!4f-1.4739859838142877!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-100"></iframe>
   </section>
 </div>
