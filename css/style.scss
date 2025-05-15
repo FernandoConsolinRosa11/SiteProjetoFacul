@@ -26,7 +26,7 @@ body {
   font-size: 18px !important;
   background-color: white;
 }
-h2{
+h2 {
   margin: 10px 0 0 10px;
 }
 .navbar {
@@ -74,11 +74,11 @@ h2{
 }
 
 .title {
-  color: $Darkblue;
+  background: $Darkblue;
+  color: $Clear;
   font-size: 30px;
   letter-spacing: 1.5px;
-  border-top: 1px solid $Darkblue;
-  border-bottom: 1px solid $Darkblue;
+  margin: 10px 0 10px 0;
 }
 
 svg {
@@ -88,4 +88,3 @@ svg {
 .card {
   width: 20%;
 }
-

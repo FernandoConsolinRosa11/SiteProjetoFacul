@@ -46,7 +46,7 @@
       </p>
     </div>
   </div>
-  <section>
+  <section id="pagamento">
 
     <h2 class="title"><svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none"
         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -66,8 +66,18 @@
     </div>
   </section>
   
-  <section>
+  <section id="localizacao">
     <h2 class="title"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="currentColor"  class="icon icon-tabler icons-tabler-filled icon-tabler-map-pin"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18.364 4.636a9 9 0 0 1 .203 12.519l-.203 .21l-4.243 4.242a3 3 0 0 1 -4.097 .135l-.144 -.135l-4.244 -4.243a9 9 0 0 1 12.728 -12.728zm-6.364 3.364a3 3 0 1 0 0 6a3 3 0 0 0 0 -6z" /></svg>Localização</h2>
     <iframe src="https://www.google.com/maps/embed?pb=!4v1747248805533!6m8!1m7!1s4S7F2vJLTnQGC09waew7qA!2m2!1d-23.77268226239625!2d-52.45062902882815!3f106.29294887892482!4f-1.4739859838142877!5f0.7820865974627469" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-100"></iframe>
   </section>
+   <section id="contato">
+    <h2 class="title"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="currentColor"  class="icon icon-tabler icons-tabler-filled icon-tabler-mail"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M22 7.535v9.465a3 3 0 0 1 -2.824 2.995l-.176 .005h-14a3 3 0 0 1 -2.995 -2.824l-.005 -.176v-9.465l9.445 6.297l.116 .066a1 1 0 0 0 .878 0l.116 -.066l9.445 -6.297z" /><path d="M19 4c1.08 0 2.027 .57 2.555 1.427l-9.555 6.37l-9.555 -6.37a2.999 2.999 0 0 1 2.354 -1.42l.201 -.007h14z" /></svg>Contato</h2>
+      <form action="" class="container-flex">
+        <label for="Nome">Nome: </label>
+        <input type="text" class="w-100" placeholder="Digite seu nome..." >
+        <label for="Email">Email: </label>
+        <input type="email" class="w-100" placeholder="Digite seu email...">
+      </form>
+   </section>
+
 </div>
