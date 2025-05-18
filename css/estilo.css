@@ -1,13 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
-/*
+
 :root{
---darkblue:#001264;
+--darkblue:#0258F2;
 --Yellow:#ebdb00;
 --Clear:white;
 --Red:#b10000;
---font-padrao:"Oswald", sans-serif;;
 }
-*/
+
 * {
   padding: 0;
   margin: 0;
@@ -24,7 +23,7 @@ p {
 }
 
 .navbar {
-  background: #001264;
+  background: var(--darkblue);
   height: 80px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.747);
   z-index: 100;
@@ -40,7 +39,7 @@ p {
 }
 
 .footer {
-  background-color: #001264;
+  background-color: var(--darkblue);
   height: 50px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.747);
   z-index: 100;
@@ -52,7 +51,7 @@ p {
 }
 
 .show {
-  background-color: #001264;
+  background-color: var(--darkblue);
   width: 100%;
   margin-top: 10px;
   z-index: 10;
@@ -72,7 +71,7 @@ p {
 }
 
 #quemsomos, #localizacao {
-  background: #001264;
+  background: var(--darkblue);
 }
 
 #produtos {
@@ -88,21 +87,44 @@ section {
 }
 
 .text-blue {
-  color: #001264;
+  color: var(--darkblue);
 }
+
 
 svg {
   margin: 10px;
 }
 
-.card {
+.grade {
+  border: 2px solid var(--darkblue);
   width: 20%;
+  transition: 0.3s all ;
+  img{
+    width: 100%;
+  }
+}
+.grade:hover{
+    box-shadow: 0 0 15px var(--darkblue);
+}
+.especial{
+    background-color: var(--Red);
+    color: var(--Clear);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0 10px 0;
+    text-decoration: none;
+    transition: 0.5s all;
+}
+.especial:hover{
+    background-color: var(--Clear);
+    color: var(--Red);
+    border: 1px solid var(--Red);
 }
 
 .bg-blue {
-  background: linear-gradient(90deg, #001264, #ffffff);
+  background: linear-gradient(90deg, var(--darkblue), #ffffff);
 }
 
 .text-blue {
-  color: #001264;
-}/*# sourceMappingURL=style.css.map */
+  color: var(--darkblue);
+}

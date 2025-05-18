@@ -62,16 +62,19 @@
     </svg>Ofertas</h2>
 
   <div class="container-flex">
-    <div class="card"><img src="img/bancodobrasil.png" alt="banco do brasil" class="w-100">
-      <p class="text-center">Banco do Brasil</p>
+    <div class="grade"><img src="img/filezin.png" alt="filé de frango" class="w-100">
+      <p class="text-center"><strong>Filé de frango</strong></p>
+      <p class="text-center">R$ 20,00 Kg</p>
     </div>
-    <div class="card"><img src="img/itau.png" alt="itaú" class="w-100">
-      <p class="text-center">Banco Itaú</p>
+    <div class="grade"><img src="img/picanha.png" alt="picanha" class="w-100">
+      <p class="text-center"><strong>Picanha</strong></p>
+      <p class="text-center">R$ 60,00 Kg</p>
     </div>
-    <div class="card"><img src="img/bradesco.png" alt="bradesco" class="w-100">
+    <div class="grade"><img src="img/bradesco.png" alt="bradesco" class="w-100">
       <p class="text-center">Banco Bradesco</p>
     </div>
   </div>
+  <p class="text-center"><a href="#" class="especial">Detalhes</a></p>
 </section>
 
 <section id="localizacao" class="bg-blue ">
