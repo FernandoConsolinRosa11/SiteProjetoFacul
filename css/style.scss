@@ -15,7 +15,6 @@ $Yellow: #ebdb00;
 $Clear: #ffffff;
 $Red: #b10000;
 
-
 * {
   padding: 0;
   margin: 0;
@@ -73,8 +72,7 @@ p{
   padding: 10px;
 }
 
-.title {
-  color: $Clear;
+.title{
   font-size: 30px;
   letter-spacing: 1.5px;
   margin: 10px 0 10px 0;
@@ -86,8 +84,14 @@ p{
 #produtos{
   background: $Clear;
 }
+section{
+  margin-bottom: 20px;
+}
 .text-white{
   color: white;
+}
+.text-blue{
+  color: $Darkblue;
 }
 svg {
   margin: 10px;
@@ -98,15 +102,8 @@ svg {
 }
 
 .bg-blue {
-  background-color: $Darkblue; /* ou o tom de azul que preferir */
-  color: white;
+  background:$Darkblue !important; 
 }
 .text-blue{
-  background: $Darkblue;
   color: $Darkblue;
-}
-
-.bg-white {
-  background-color: #fff;
-  color: black;
 }

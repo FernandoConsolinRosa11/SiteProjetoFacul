@@ -47,9 +47,9 @@
     </div>
   </div>
 </section>
-<section id="produtos" class="bg-white">
+<section id="produtos">
 
-  <h2 class="title text-blue"><svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none"
+  <h2 class="text-blue"><svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none"
       stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
       class="icon icon-tabler icons-tabler-outline icon-tabler-database-dollar">
       <path stroke="none" d="M0 0h24v24H0z" fill="none" />
