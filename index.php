@@ -49,9 +49,9 @@
     $page = $p[0] ?? "home";
     $ofertas = $p[1] ?? null;
     if ($page == "ofertas") {
-      echo $pagina = "paginas/{$ofertas}.php";
+       $pagina = "paginas/{$ofertas}.php";
     } else {
-      echo $pagina = "paginas/{$page}.php";
+       $pagina = "paginas/{$page}.php";
     }
     //verificar se a página existe
     if (file_exists($pagina)) {

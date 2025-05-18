@@ -14,7 +14,7 @@ $Darkblue: #001264;
 $Yellow: #ebdb00;
 $Clear: #ffffff;
 $Red: #b10000;
-$font: "Oswald", sans-serif;
+
 
 * {
   padding: 0;
@@ -22,13 +22,13 @@ $font: "Oswald", sans-serif;
   box-sizing: border-box;
 }
 body {
-  font-family: $font !important;
-  font-size: 18px !important;
+  font-size: 18px ;
   background-color: white;
 }
-h2 {
-  margin: 10px 0 0 10px;
+p{
+  font-family: Arial, Helvetica, sans-serif !important;
 }
+
 .navbar {
   background: $Darkblue;
   height: 80px;
@@ -74,17 +74,39 @@ h2 {
 }
 
 .title {
-  background: $Darkblue;
   color: $Clear;
   font-size: 30px;
   letter-spacing: 1.5px;
   margin: 10px 0 10px 0;
 }
 
+#quemsomos,#localizacao{
+  background: $Darkblue;
+}
+#produtos{
+  background: $Clear;
+}
+.text-white{
+  color: white;
+}
 svg {
   margin: 10px;
 }
 
 .card {
   width: 20%;
+}
+
+.bg-blue {
+  background-color: $Darkblue; /* ou o tom de azul que preferir */
+  color: white;
+}
+.text-blue{
+  background: $Darkblue;
+  color: $Darkblue;
+}
+
+.bg-white {
+  background-color: #fff;
+  color: black;
 }
