@@ -1,21 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
 
-:root{
---darkblue:#0258F2;
---Yellow:#ebdb00;
---Clear:white;
---Red:#b10000;
+:root {
+  --darkblue: #0258f2;
+  --Yellow: #ebdb00;
+  --Clear: white;
+  --Red: #b10000;
 }
 
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
 }
 
 body {
   font-size: 18px;
   background-color: white;
+  box-sizing: border-box;
 }
 
 p {
@@ -27,6 +27,18 @@ p {
   height: 80px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.747);
   z-index: 100;
+  position: static;
+  .icon {
+    margin: 5px;
+    color: var(--Clear) !important;
+    transition: 0.5s all;
+  }
+  .icon:hover {
+    color: var(--Yellow) !important;
+  }
+  .logo {
+    width: 30px;
+  }
 }
 .navbar .nav-item .nav-link {
   color: #ffffff;
@@ -40,14 +52,21 @@ p {
 
 .footer {
   background-color: var(--darkblue);
-  height: 50px;
+  height: 120px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.747);
   z-index: 100;
+  position: static;
 }
 .footer p {
-  padding-top: 15px;
   color: #ffffff;
   text-align: center;
+  svg{
+    color: var(--Clear);
+    transition: 0.5s all;
+  }
+  svg:hover{
+    color: var(--Yellow);
+  }
 }
 
 .show {
@@ -62,7 +81,7 @@ p {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  .grade img{
+  .grade img {
     padding: 15px;
     height: 250px;
   }
@@ -74,7 +93,8 @@ p {
   margin: 10px 0 10px 0;
 }
 
-#quemsomos, #localizacao {
+#quemsomos,
+#localizacao {
   background: var(--darkblue);
 }
 
@@ -94,7 +114,6 @@ section {
   color: var(--darkblue);
 }
 
-
 svg {
   margin: 10px;
 }
@@ -102,24 +121,24 @@ svg {
 .grade {
   border: 2px solid var(--darkblue);
   width: 20%;
-  transition: 0.3s all ;
+  transition: 0.3s all;
   margin: 0 5px 0 5px;
 }
-.grade:hover{
-    box-shadow: 0 0 15px var(--darkblue);
+.grade:hover {
+  box-shadow: 0 0 15px var(--darkblue);
 }
-.especial{
-    background-color: var(--Red);
-    color: var(--Clear);
-    padding: 15px;
-    border-radius: 25px;
-    text-decoration: none;
-    transition: 0.5s all;
+.especial {
+  background-color: var(--Red);
+  color: var(--Clear);
+  padding: 15px;
+  border-radius: 25px;
+  text-decoration: none;
+  transition: 0.5s all;
 }
-.especial:hover{
-    background-color: var(--Clear);
-    color: var(--Red);
-    border: 1px solid var(--Red);
+.especial:hover {
+  background-color: var(--Clear);
+  color: var(--Red);
+  border: 1px solid var(--Red);
 }
 
 .bg-blue {
@@ -128,4 +147,22 @@ svg {
 
 .text-blue {
   color: var(--darkblue);
+}
+
+/*-------Responsividade---------*/
+
+@media (max-width: 450px) {
+  #produtos {
+    .container-flex {
+      display: block;
+      text-align: center;
+      .grade {
+        margin-bottom: 10px;
+        width: 100%;
+      }
+    }
+  }
+  h2{
+    text-align: center;
+  }
 }
