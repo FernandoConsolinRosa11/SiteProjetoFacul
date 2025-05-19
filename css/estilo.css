@@ -62,6 +62,10 @@ p {
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  .grade img{
+    padding: 15px;
+    height: 250px;
+  }
 }
 
 .title {
@@ -79,7 +83,7 @@ p {
 }
 
 section {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .text-white {
@@ -99,9 +103,7 @@ svg {
   border: 2px solid var(--darkblue);
   width: 20%;
   transition: 0.3s all ;
-  img{
-    width: 100%;
-  }
+  margin: 0 5px 0 5px;
 }
 .grade:hover{
     box-shadow: 0 0 15px var(--darkblue);
@@ -109,9 +111,8 @@ svg {
 .especial{
     background-color: var(--Red);
     color: var(--Clear);
-    padding: 10px;
-    border-radius: 10px;
-    margin: 10px 0 10px 0;
+    padding: 15px;
+    border-radius: 25px;
     text-decoration: none;
     transition: 0.5s all;
 }
