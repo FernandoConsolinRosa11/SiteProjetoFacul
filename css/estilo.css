@@ -119,11 +119,11 @@ svg {
   margin: 10px;
 }
 
-.grade {
+.grade{
   border: 2px solid var(--darkblue);
   width: 20%;
-  transition: 0.3s all;
   margin: 0 5px 0 5px;
+  transition: 0.3s all;
 }
 .grade:hover {
   box-shadow: 0 0 15px var(--darkblue);
