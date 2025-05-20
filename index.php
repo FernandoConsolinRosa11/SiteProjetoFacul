@@ -9,13 +9,13 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/estilo.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
 </head>
 
 <body>
  <nav class="navbar navbar-expand-lg ">
   <div class="container-fluid">
-    <a class="navbar-brand" href="home"><img src="img/bv.jpg" alt="logo" class="logo"></a>
+    <a class="navbar-brand " href="home"><img src="img/favicon.jpg" alt="logo" class="logo"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -46,7 +46,8 @@
       //print_r($_GET);
     }
     $page = $p[0] ?? "home";
-    $ofertas = $p[1] ?? null;
+    $ofertas = $p[1] ?? "ofertas";
+    
     if ($page == "ofertas") {
        $pagina = "paginas/{$ofertas}.php";
     } else {

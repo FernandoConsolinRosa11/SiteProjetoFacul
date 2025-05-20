@@ -36,10 +36,11 @@ p {
   .icon:hover {
     color: var(--Yellow) !important;
   }
-  .logo {
-    width: 30px;
-  }
+   .logo {
+    width: 50px;
+  } 
 }
+
 .navbar .nav-item .nav-link {
   color: #ffffff;
   font-size: 20px;
@@ -130,7 +131,7 @@ svg {
 .especial {
   background-color: var(--Red);
   color: var(--Clear);
-  padding: 15px;
+  padding: 10px;
   border-radius: 25px;
   text-decoration: none;
   transition: 0.5s all;
@@ -139,6 +140,7 @@ svg {
   background-color: var(--Clear);
   color: var(--Red);
   border: 1px solid var(--Red);
+  box-shadow: 0 0 10px var(--Red);
 }
 
 .bg-blue {
@@ -147,6 +149,10 @@ svg {
 
 .text-blue {
   color: var(--darkblue);
+}
+
+.display-none{
+  display: none;
 }
 
 /*-------Responsividade---------*/
@@ -159,6 +165,12 @@ svg {
       .grade {
         margin-bottom: 10px;
         width: 100%;
+      }
+      .display-none{
+        display: block;
+      }
+      .especial{
+        margin: 10px;
       }
     }
   }
