@@ -17,7 +17,7 @@
   <div class="container-fluid" data-aos="fade-right">
     <!-- LOGO -->
     <a class="navbar-brand" href="home" title="Logo">
-      <img src="img/favicon.jpg" alt="logo" class="logo" style="height: 40px;">
+      <img src="img/logonew.png" alt="logo" class="logo" style="width: 120px;">
     </a>
 
     <!-- BOTÃO PARA MENU COLAPSÁVEL NO MOBILE -->
