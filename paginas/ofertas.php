@@ -4,59 +4,59 @@
     <div class="container-flex">
         <div class="grade"><img src="img/filezin.png" alt="filé de frango" class="w-100">
             <p class="text-center"><strong>Filé de frango</strong></p>
-            <p class="text-center">R$ 20,00 Kg</p>
+            <p class="text-center text-success">R$ 20,00 Kg</p>
         </div>
         <div class="grade"><img src="img/picanha.png" alt="picanha" class="w-100">
             <p class="text-center"><strong>Picanha</strong></p>
-            <p class="text-center">R$ 60,00 Kg</p>
+            <p class="text-center text-success">R$ 60,00 Kg</p>
         </div>
         <div class="grade"><img src="img/patinho.png" alt="patinho bovino" class="w-100">
-            <p class="text-center">Patinho Bovino</p>
-            <p class="text-center">R$ 25,00 Kg</p>
+            <p class="text-center"><strong>Patinho Bovino</strong></p>
+            <p class="text-center text-success">R$ 25,00 Kg</p>
         </div>
         <div class="grade"><img src="img/patinho.png" alt="patinho bovino" class="w-100">
-            <p class="text-center">Patinho Bovino</p>
-            <p class="text-center">R$ 25,00 Kg</p>
+            <p class="text-center"><strong>Patinho Bovino</strong></p>
+            <p class="text-center text-success">R$ 25,00 Kg</p>
         </div>
         <div class="grade"><img src="img/patinho.png" alt="patinho bovino" class="w-100">
-            <p class="text-center">Patinho Bovino</p>
-            <p class="text-center">R$ 25,00 Kg</p>
+            <p class="text-center"><strong>Patinho Bovino</strong></p>
+            <p class="text-center text-success">R$ 25,00 Kg</p>
         </div>
         <div class="grade"><img src="img/patinho.png" alt="patinho bovino" class="w-100">
-            <p class="text-center">Patinho Bovino</p>
-            <p class="text-center">R$ 25,00 Kg</p>
+            <p class="text-center"><strong>Patinho Bovino</strong></p>
+            <p class="text-center text-success">R$ 25,00 Kg</p>
 
         </div>
     </div>
     <div class="container-flex">
         <div class="grade"><img src="img/filezin.png" alt="filé de frango" class="w-100">
             <p class="text-center"><strong>Filé de frango</strong></p>
-            <p class="text-center">R$ 20,00 Kg</p>
+            <p class="text-center text-success">R$ 20,00 Kg</p>
             <p class="text-center"><a href="#" class="especial display-none">Detalhes</a></p>
         </div>
         <div class="grade"><img src="img/picanha.png" alt="picanha" class="w-100">
             <p class="text-center"><strong>Picanha</strong></p>
-            <p class="text-center">R$ 60,00 Kg</p>
+            <p class="text-center text-success">R$ 60,00 Kg</p>
             <p class="text-center"><a href="#" class="especial display-none">Detalhes</a></p>
         </div>
         <div class="grade"><img src="img/patinho.png" alt="patinho bovino" class="w-100">
-            <p class="text-center">Patinho Bovino</p>
-            <p class="text-center">R$ 25,00 Kg</p>
+            <p class="text-center"><strong>Patinho Bovino</strong></p>
+            <p class="text-center text-success">R$ 25,00 Kg</p>
             <p class="text-center"><a href="#" class="especial display-none">Detalhes</a></p>
         </div>
         <div class="grade"><img src="img/patinho.png" alt="patinho bovino" class="w-100">
-            <p class="text-center">Patinho Bovino</p>
-            <p class="text-center">R$ 25,00 Kg</p>
+            <p class="text-center"><strong>Patinho Bovino</strong></p>
+            <p class="text-center text-success">R$ 25,00 Kg</p>
             <p class="text-center"><a href="#" class="especial display-none">Detalhes</a></p>
         </div>
         <div class="grade"><img src="img/patinho.png" alt="patinho bovino" class="w-100">
-            <p class="text-center">Patinho Bovino</p>
-            <p class="text-center">R$ 25,00 Kg</p>
+            <p class="text-center"><strong>Patinho Bovino</strong></p>
+            <p class="text-center text-success">R$ 25,00 Kg</p>
             <p class="text-center"><a href="#" class="especial display-none">Detalhes</a></p>
         </div>
         <div class="grade"><img src="img/patinho.png" alt="patinho bovino" class="w-100">
-            <p class="text-center">Patinho Bovino</p>
-            <p class="text-center">R$ 25,00 Kg</p>
+            <p class="text-center"><strong>Patinho Bovino</strong></p>
+            <p class="text-center text-success">R$ 25,00 Kg</p>
             <p class="text-center"><a href="#" class="especial display-none">Detalhes</a></p>
         </div>
     </div>
