@@ -1,26 +1,26 @@
 <h2 class="title text-blue text-center mb-4">ENTRE EM CONTATO</h2>
 
 <div class="container">
-  <form action="" class="w-100">
+  <form method="post" class="w-100">
     <div class="row g-3 mb-3">
       <div class="col-md-6">
-        <input type="text" class="form-control" placeholder="Nome..." required>
+        <input type="text" class="form-control" placeholder="Nome..." id="nome" required>
       </div>
       <div class="col-md-6">
-        <input type="tel" class="form-control" placeholder="Número de telefone..." required>
+        <input type="tel" class="form-control" placeholder="Número de telefone..." id="tel" required>
       </div>
     </div>
 
     <div class="mb-3">
-      <input type="email" class="form-control" placeholder="Email..." required>
+      <input type="email" class="form-control" placeholder="Email..." id="email" required>
     </div>
 
     <div class="row g-3 mb-3">
       <div class="col-md-8">
-        <input type="text" class="form-control" placeholder="Endereço...">
+        <input type="text" class="form-control" placeholder="Endereço..." id="endereco">
       </div>
       <div class="col-md-4">
-        <input type="number" class="form-control" placeholder="Número da residência...">
+        <input type="number" class="form-control" placeholder="Número da residência..." id="numero">
       </div>
     </div>
 
@@ -36,8 +36,9 @@
     </div>
 
     <div class="text-center">
-      <a href="#" class="especial">Enviar mensagem</a>
+      <button type="submit" class="especial btn" id="btn">Enviar mensagem</button>
     </div>
   </form>
   <br>
 </div>
+

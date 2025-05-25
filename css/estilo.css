@@ -143,6 +143,8 @@ svg {
   border-radius: 25px;
   text-decoration: none;
   transition: 0.5s all;
+  cursor: pointer;
+  border: none;
 }
 .especial:hover {
   background-color: var(--Clear);
