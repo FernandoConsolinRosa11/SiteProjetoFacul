@@ -27,17 +27,10 @@ h2{
 .navbar {
   background: var(--darkblue);
   height: 80px;
+  width: 100%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.747);
   z-index: 100;
-  position: static;
-  .icon {
-    margin: 5px;
-    color: var(--Clear) !important;
-    transition: 0.5s all;
-  }
-  .icon:hover {
-    color: var(--Yellow) !important;
-  }
+  position: relative;
   .logo {
     width: 50px;
   }
@@ -65,16 +58,14 @@ h2{
     margin: 0 10px;
     text-decoration: none;
   }
-
-  svg {
-    vertical-align: middle;
-    transition: transform 0.2s;
-    transition: 0.2s all;
+  .icon {
+    margin: 5px;
+    color: var(--Clear) !important;
+    transition: 0.3s all;
   }
-
-  svg:hover {
+  .icon:hover {
+    color: var(--Yellow) !important;
     transform: scale(1.3);
-    color: var(--Yellow);
   }
 }
 
@@ -190,4 +181,16 @@ textarea {
   h2 {
     text-align: center;
   }
+   .navbar-brand {
+    float: left;
+  }
+
+  .navbar-toggler {
+    top: 15px;
+  }
+
+  .logo {
+    width: 100px;
+  }
+
 }

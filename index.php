@@ -13,38 +13,40 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg sm sticky-top">
-    <div class="container-fluid" data-aos="fade-right">
-      <!-- LOGO -->
-      <a class="navbar-brand" href="home" title="Logo">
-        <img src="img/logonew.png" alt="logo" class="logo" style="width: 120px;">
-      </a>
+ <nav class="navbar navbar-expand-lg sticky-top">
+  <div class="container-fluid d-flex justify-content-between align-items-center" data-aos="fade-right">
+    
+    <!-- LOGO -->
+    <a class="navbar-brand mx-auto d-flex justify-content-center align-items-center" href="home" title="Logo">
+      <img src="img/logonew.png" alt="logo" class="logo" style="width: 120px;">
+    </a>
 
-      <!-- BOTÃO PARA MENU COLAPSÁVEL NO MOBILE -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <!-- BOTÃO PARA MENU COLAPSÁVEL NO MOBILE -->
+    <button class="navbar-toggler position-absolute end-0 me-3" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-      <!-- LINKS DO MENU -->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="home" title="Início">Início</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="ofertas" title="Ofertas">Ofertas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="novidades" title="Novidades">Novidades</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contato" title="Contato">Contato</a>
-          </li>
-        </ul>
-      </div>
+    <!-- LINKS DO MENU -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="home" title="Início">Início</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ofertas" title="Ofertas">Ofertas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="novidades" title="Novidades">Novidades</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contato" title="Contato">Contato</a>
+        </li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
 
   <main>
     <?php
