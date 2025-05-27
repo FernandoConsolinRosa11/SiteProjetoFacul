@@ -50,6 +50,7 @@
 
   <main>
     <?php
+ 
     if (isset($_GET['param'])) {
       $param = $_GET['param'];
       //separar o parametor por /

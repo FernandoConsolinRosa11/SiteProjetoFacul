@@ -1,0 +1,23 @@
+[
+  {
+    "nome": "Filé de Frango Kg",
+    "preco": 20.00,
+    "imagem": "img/filezin.png",
+    "tipo": "carne",
+    "unidade": "Kg"
+    },
+  {
+    "nome": "Bisteca de Porco Kg",
+    "preco": 14.79,
+    "imagem": "img/patinho.png",
+    "tipo": "carne",
+    "unidade": "Kg"
+  },
+  {
+    "nome": "Heineken 330ml",
+    "preco": 6.95,
+    "imagem": "img/HlongNeck.png",
+    "tipo": "bebida",
+    "unidade": "Ml"
+  }
+]
