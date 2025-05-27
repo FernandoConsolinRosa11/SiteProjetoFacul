@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mercado BelaVista</title>
-  <base href="">
+  <base href="http://localhost/DevModerna/SiteProjetoFacul-main/home">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/estilo.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -14,17 +14,17 @@
 
 <body>
  <nav class="navbar navbar-expand-lg sticky-top">
-  <div class="container-fluid d-flex justify-content-between align-items-center" data-aos="fade-right">
+  <div class="container-fluid d-flex " data-aos="fade-right">
     
     <!-- LOGO -->
-    <a class="navbar-brand mx-auto d-flex justify-content-center align-items-center" href="home" title="Logo">
-      <img src="img/logonew.png" alt="logo" class="logo" style="width: 120px;">
+    <a class="navbar-brand d-flex" href="home" >
+      <img src="img/logonew.png" alt="logo" title="Logo" style="width: 20%;">
     </a>
 
     <!-- BOTÃO PARA MENU COLAPSÁVEL NO MOBILE -->
     <button class="navbar-toggler position-absolute end-0 me-3" type="button" data-bs-toggle="collapse"
       data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-      aria-label="Toggle navigation">
+      aria-label="Toggle navigation" style="background-color: white; border: 1px solid black">
       <span class="navbar-toggler-icon"></span>
     </button>
 

@@ -31,9 +31,11 @@ h2{
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.747);
   z-index: 100;
   position: relative;
-  .logo {
-    width: 50px;
-  }
+  
+}
+.logo {
+  width: 100px;
+  height: auto;
 }
 
 .navbar .nav-item .nav-link {
@@ -72,7 +74,6 @@ h2{
 .show {
   background-color: var(--darkblue);
   width: 100%;
-  margin-top: 10px;
   z-index: 100;
 }
 
@@ -159,6 +160,8 @@ input,
 textarea {
   margin: 5px;
 }
+
+
 /*-------Responsividade---------*/
 
 @media (max-width: 450px) {
@@ -181,16 +184,8 @@ textarea {
   h2 {
     text-align: center;
   }
-   .navbar-brand {
-    float: left;
-  }
-
   .navbar-toggler {
     top: 15px;
-  }
-
-  .logo {
-    width: 100px;
   }
 
 }
