@@ -9,7 +9,7 @@
   {
     "nome": "Bisteca de Porco Kg",
     "preco": 14.79,
-    "imagem": "img/patinho.png",
+    "imagem": "img/bistecadeporco.png",
     "tipo": "carne",
     "unidade": "Kg"
   },
@@ -17,6 +17,55 @@
     "nome": "Heineken 330ml",
     "preco": 6.95,
     "imagem": "img/HlongNeck.png",
+    "tipo": "bebida",
+    "unidade": "Ml"
+  },
+  {
+    "nome": "Posta vermelha Kg",
+    "preco": 32.92,
+    "imagem": "img/postavermelhabovina.png",
+    "tipo": "carne",
+    "unidade": "Kg"
+  },
+  {
+    "nome": "Coxinha da asa Kg",
+    "preco": 11.99,
+    "imagem": "img/coxinhadaasa.png",
+    "tipo": "carne",
+    "unidade": "Kg"
+  },
+  {
+    "nome": "Sardinha 800g",
+    "preco": 16.79,
+    "imagem": "img/sardinhaespalmada.png",
+    "tipo": "carne",
+    "unidade": "g"
+  },
+    {
+    "nome": "Skol Pilsen 350ml",
+    "preco": 3.09,
+    "imagem": "img/skolpilsen.png",
+    "tipo": "bebida",
+    "unidade": "Ml"
+  },
+    {
+    "nome": "Spaten 473ml",
+    "preco": 5.19,
+    "imagem": "img/spaten350ml.png",
+    "tipo": "bebida",
+    "unidade": "Ml"
+  },
+    {
+    "nome": "Eisenbahn 350ml",
+    "preco": 3.99,
+    "imagem": "img/eisen350ml.png",
+    "tipo": "bebida",
+    "unidade": "Ml"
+  },
+    {
+    "nome": "Amstel 350ml",
+    "preco": 3.59,
+    "imagem": "img/amstel350ml.png",
     "tipo": "bebida",
     "unidade": "Ml"
   }

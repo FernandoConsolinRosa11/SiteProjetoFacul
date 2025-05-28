@@ -35,10 +35,9 @@
 
 
   <div class="container-flex container" data-aos="zoom-in">
-    <div>
-      <img src="img/whatsapp.png" alt="" class="w-100">
-    </div>
-    <div>
+
+      <img src="img/Screenshot_1.png" alt="Mercado Bela Vista" class="w-100 m-5">
+
       <p class="text-white">
         O Mercado Bela Vista foi fundado em 1993, na cidade de Terra Boa, Paraná, pelos sócios
         Benedito Aparecido Consolin e Claudia Greici Consolin. Localizado na Avenida Melvin Jones, nº 221, o
@@ -48,7 +47,6 @@
         trajetória marcada pelo trabalho e pela confiança da população, o Mercado Bela Vista tornou-se símbolo de
         tradição e desenvolvimento para a cidade.
       </p>
-    </div>
   </div>
 </section>
 <section id="produtos">
@@ -61,34 +59,14 @@
     </svg>Ofertas</h2>
 
   <div class="container-flex container" data-aos="zoom-in">
-    <div class="grade "><img src="img/filezin.png" alt="filé de frango" class="w-100">
-      <p class="text-center"><strong>Filé de frango</strong></p>
-      <p class="text-center">R$ 20,00 Kg</p>
-      <p class="text-center"><a href="contato" class="especial">Faça seu pedido!</a></p>
+    <div class="container-flex">
+        <?php exibirProdutos($produtos, 'carne'); ?>
     </div>
-    <div class="grade"><img src="img/picanha.png" alt="picanha" class="w-100">
-      <p class="text-center"><strong>Picanha</strong></p>
-      <p class="text-center">R$ 60,00 Kg</p>
-      <p class="text-center"><a href="contato" class="especial">Faça seu pedido!</a></p>
-    </div>
-    <div class="grade "><img src="img/patinho.png" alt="patinho bovino" class="w-100">
-      <p class="text-center"><strong>Patinho Bovino</strong></p>
-      <p class="text-center">R$ 25,00 Kg</p>
-      <p class="text-center"><a href="contato" class="especial">Faça seu pedido!</a></p>
-    </div>
-    <div class="grade "><img src="img/patinho.png" alt="patinho bovino" class="w-100">
-      <p class="text-center"><strong>Patinho Bovino</strong></p>
-      <p class="text-center">R$ 25,00 Kg</p>
-      <p class="text-center"><a href="contato" class="especial">Faça seu pedido!</a></p>
-    </div>
-    <div class="grade "><img src="img/patinho.png" alt="patinho bovino" class="w-100">
-      <p class="text-center"><strong>Patinho Bovino</strong></p>
-      <p class="text-center">R$ 25,00 Kg</p>
-      <p class="text-center"><a href="contato" class="especial">Faça seu pedido!</a></p>
-    </div>
-  </div>
 </section>
-
+  <div data-aos="zoom-in">
+     <p class="text-center"><a href="ofertas" class="especial">Ofertas imperdíveis!</a></p>
+  </div>
+  <br>
 <section id="localizacao" class="bg-blue ">
   <h2 class="title text-white"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"
       fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-map-pin">

@@ -1,20 +1,3 @@
-<?php
-$produtos = json_decode(file_get_contents('js/produtos.json'), true);
-
-function exibirProdutos($produtos, $tipoFiltro)
-{
-    foreach ($produtos as $produto) {
-        if ($produto['tipo'] === $tipoFiltro) {
-            echo '<div class="grade">';
-            echo '<img src="' . $produto['imagem'] . '" alt="' . $produto['nome'] . '" class="w-100">';
-            echo '<p class="text-center"><strong>' . $produto['nome'] . '</strong></p>';
-            echo '<p class="text-center text-success">R$ ' . number_format($produto['preco'], 2, ',', '.') . '</p>';
-            echo '<p class="text-center display-none"><a href="" class="especial">Compre já!</a></p>';
-            echo '</div>';
-        }
-    }
-}
-?>
 
 <h2 class="text-center text-blue title">OFERTAS IMPERDÍVEIS!</h2>
 <p class="text-center">Os produtos abaixo são relacionados à churrascaria e afins, caso deseje ter acesso aos demais
@@ -32,6 +15,6 @@ function exibirProdutos($produtos, $tipoFiltro)
 
     <br>
     <div class="">
-        <p class="text-center"><a href="" class="especial">Compre já!</a></p>
+        <p class="text-center"><a href="contato" class="especial">Garanta já o seu!</a></p>
     </div>
 </section>

@@ -1,3 +1,21 @@
+<?php
+$produtos = json_decode(file_get_contents('js/produtos.json'), true);
+
+function exibirProdutos($produtos, $tipoFiltro)
+{
+    foreach ($produtos as $produto) {
+        if ($produto['tipo'] === $tipoFiltro) {
+            echo '<div class="grade">';
+            echo '<img src="' . $produto['imagem'] . '" alt="' . $produto['nome'] . '" class="w-100">';
+            echo '<p class="text-center"><strong>' . $produto['nome'] . '</strong></p>';
+            echo '<p class="text-center text-success">R$ ' . number_format($produto['preco'], 2, ',', '.') . '</p>';
+            echo '<p class="text-center display-none"><a href="" class="especial">Compre já!</a></p>';
+            echo '</div>';
+        }
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -18,7 +36,7 @@
     
     <!-- LOGO -->
     <a class="navbar-brand d-flex" href="home" >
-      <img src="img/logonew.png" alt="logo" title="Logo" style="width: 20%;">
+      <img src="img/logonew.png" alt="logo" title="Logo" style="width: 18%;">
     </a>
 
     <!-- BOTÃO PARA MENU COLAPSÁVEL NO MOBILE -->
@@ -36,9 +54,6 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="ofertas" title="Ofertas">Ofertas</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="novidades" title="Novidades">Novidades</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="contato" title="Contato">Contato</a>
@@ -73,20 +88,6 @@
     }
     ?>
   </main>
-  <script src="js/aos.js"></script>
-  <script src="js/fslightbox.js"></script>
-  <script>
-    AOS.init();
-  </script>
-  <script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
-      crossorigin="anonymous"></script>
-  <script src="js/aos.js"></script>
-  <script src="js/fslightbox.js"></script>
-  <script src="js/jquery-1.11.3.min"></script>
-
-  </script>
   <footer class="footer w-100">
     <p class="mx-auto p-2 text-center">
       <a href="..."><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -108,6 +109,21 @@
     <p class="mx-auto p-2 text-center text-white">Desenvolvido por Fernando Consolin Rosa</p>
   </footer>
 
+  <script src="js/aos.js"></script>
+  <script src="js/fslightbox.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+      crossorigin="anonymous"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/fslightbox.js"></script>
+  <script src="js/jquery-1.11.3.min"></script>
+
+  </script>
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
     crossorigin="anonymous"></script>
