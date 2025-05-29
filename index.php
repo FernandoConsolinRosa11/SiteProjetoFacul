@@ -9,7 +9,7 @@ function exibirProdutos($produtos, $tipoFiltro)
             echo '<img src="' . $produto['imagem'] . '" alt="' . $produto['nome'] . '" class="w-100">';
             echo '<p class="text-center"><strong>' . $produto['nome'] . '</strong></p>';
             echo '<p class="text-center text-success">R$ ' . number_format($produto['preco'], 2, ',', '.') . '</p>';
-            echo '<p class="text-center display-none"><a href="" class="especial">Compre já!</a></p>';
+            echo '<p class="text-center display-none"><a href="contato" class="especial">Compre já!</a></p>';
             echo '</div>';
         }
     }
@@ -62,7 +62,6 @@ function exibirProdutos($produtos, $tipoFiltro)
     </div>
   </div>
 </nav>
-  <main>
     <?php
  
     if (isset($_GET['param'])) {
@@ -86,7 +85,6 @@ function exibirProdutos($produtos, $tipoFiltro)
       include "paginas/erro.php";
     }
     ?>
-  </main>
   <footer class="footer w-100">
     <p class="mx-auto p-2 text-center">
       <a href="..."><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"

@@ -27,6 +27,7 @@ h2{
 .navbar {
   background: var(--darkblue);
   height: 80px;
+  top: 0;
   width: 100%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.747);
   z-index: 100;
@@ -42,7 +43,9 @@ h2{
   color: #ebdb00;
   transform: scale(1.3);
 }
-
+.main{
+  padding-top: 80px;
+}
 .footer {
   background-color: var(--darkblue);
   height: 120px;
@@ -64,15 +67,10 @@ h2{
     transform: scale(1.3);
   }
 }
-
 .show {
   background-color: var(--darkblue);
   width: 100%;
   z-index: 100;
-}
-
-.carousel-item img{
-  
 }
 
 .container-flex {
@@ -111,6 +109,13 @@ section {
 
 .text-blue {
   color: var(--darkblue);
+}
+
+.text-success{
+  background-color: green;
+  color: white !important;
+  border-radius: 10px;
+  margin: 0 80px 10px 80px;
 }
 
 svg {
@@ -185,5 +190,7 @@ textarea {
   .navbar-toggler {
     top: 15px;
   }
-
+  #carouselExampleAutoplaying{
+    display: none;
+  }
 }
