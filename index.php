@@ -31,7 +31,7 @@ function exibirProdutos($produtos, $tipoFiltro)
 </head>
 
 <body>
- <nav class="navbar navbar-expand-lg sticky-top">
+ <nav class="navbar navbar-expand-lg">
   <div class="container-fluid d-flex " data-aos="fade-right">
     
     <!-- LOGO -->
@@ -62,7 +62,6 @@ function exibirProdutos($produtos, $tipoFiltro)
     </div>
   </div>
 </nav>
-
   <main>
     <?php
  
