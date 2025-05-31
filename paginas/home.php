@@ -24,7 +24,7 @@
     </button>
   </div>
   
-  <section id="quemsomos" class="bg-blue">
+  <section id="quemsomos" class="bg-blue pt-5" >
     <h2 class="title text-white"><svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24"
         fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round" stroke-linejoin="round"
         class="icon icon-tabler icons-tabler-outline icon-tabler-users-group ">
@@ -61,7 +61,7 @@
   
     </div>
   </div>
-  
+  </section>
   <section id="produtos">
   
     <h2 class="text-blue text-center mb-4">
@@ -80,7 +80,7 @@
     <br>
   </section>
   
-  <section id="localizacao" class="bg-blue ">
+  <section id="localizacao" class="bg-blue pb-5">
     <h2 class="title text-white"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"
         fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-map-pin">
         <path stroke="none" d="M0 0h24v24H0z" fill="none" />

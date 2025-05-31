@@ -1,8 +1,8 @@
 [
   {
-    "nome": "Filé de Frango Kg",
-    "preco": 20.00,
-    "imagem": "img/filezin.png",
+    "nome": "Peito de frango Kg",
+    "preco": 21.90,
+    "imagem": "img/peitodefrango.png",
     "tipo": "carne",
     "unidade": "Kg"
     },
