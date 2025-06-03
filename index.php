@@ -117,7 +117,6 @@ function exibirProdutos($produtos, $tipoFiltro)
       crossorigin="anonymous"></script>
   <script src="js/aos.js"></script>
   <script src="js/fslightbox.js"></script>
-  <script src="js/jquery-1.11.3.min"></script>
 
   </script>
   

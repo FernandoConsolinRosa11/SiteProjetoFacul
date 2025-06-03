@@ -80,7 +80,7 @@
     <br>
   </section>
   
-  <section id="localizacao" class="bg-blue pb-5">
+  <section id="localizacao" class="bg-blue m-0">
     <h2 class="title text-white"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24"
         fill="currentColor" class="icon icon-tabler icons-tabler-filled icon-tabler-map-pin">
         <path stroke="none" d="M0 0h24v24H0z" fill="none" />
