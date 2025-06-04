@@ -48,7 +48,7 @@
   
       <!-- Texto -->
       <div class="col-md-6 text-white">
-        <p>
+        <p class="lh-lg fs-5">
           O Mercado Bela Vista foi fundado em 1993, na cidade de Terra Boa, Paraná, pelos sócios
           Benedito Aparecido Consolin e Claudia Greici Consolin. Localizado na Avenida Melvin Jones, nº 221, o
           estabelecimento surgiu com o propósito de atender à comunidade local, oferecendo produtos de qualidade e um

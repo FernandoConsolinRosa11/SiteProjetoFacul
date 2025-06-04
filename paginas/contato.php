@@ -2,7 +2,7 @@
   <h2 class="title text-blue text-center mb-4">ENTRE EM CONTATO</h2>
   
   <div class="container">
-    <form method="post" class="w-100">
+     <form method="post" class="w-100">
       <div class="row g-3 mb-3">
         <div class="col-md-6">
           <input type="text" class="form-control" placeholder="Nome..." id="nome" required>
@@ -17,10 +17,10 @@
       </div>
   
       <div class="row g-3 mb-3">
-        <div class="col-md-8">
+        <div class="col-md-9">
           <input type="text" class="form-control" placeholder="Endereço..." id="endereco">
         </div>
-        <div class="col-md-4">
+        <div class="col-md-3">
           <input type="number" class="form-control" placeholder="Número da residência..." id="numero">
         </div>
       </div>

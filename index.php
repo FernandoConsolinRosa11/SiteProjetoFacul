@@ -6,7 +6,7 @@ function exibirProdutos($produtos, $tipoFiltro)
     foreach ($produtos as $produto) {
         if ($produto['tipo'] === $tipoFiltro) {
             echo '<div class="grade">';
-            echo '<img src="' . $produto['imagem'] . '" alt="' . $produto['nome'] . '" class="w-100">';
+            echo '<img src="' . $produto['imagem'] . '" alt="produto' . $produto['nome'] . '" class="w-100">';
             echo '<p class="text-center"><strong>' . $produto['nome'] . '</strong></p>';
             echo '<p class="text-center text-success">R$ ' . number_format($produto['preco'], 2, ',', '.') . '</p>';
             echo '<p class="text-center display-none"><a href="contato" class="especial">Compre já!</a></p>';
@@ -87,12 +87,7 @@ function exibirProdutos($produtos, $tipoFiltro)
     ?>
   <footer class="footer w-100">
     <p class="mx-auto p-2 text-center">
-      <a href="..."><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-          stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"
-          class="icon icon-tabler icons-tabler-outline icon-tabler-brand-facebook">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-          <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" title="Facebook" />
-        </svg></a>
+      <a href="https://whats.link/mercadobelavista" target="_blank"><svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-whatsapp"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" /><path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" /></svg></a>
 
       <a href="https://www.instagram.com/mercadobelavista8/?next=%2F" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
