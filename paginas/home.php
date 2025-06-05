@@ -1,17 +1,17 @@
 <main class="main">
-  <div id="carouselExampleAutoplaying" class="carousel slide w-100" data-bs-ride="carousel" >
+  <div id="carouselExampleAutoplaying" class="carousel slide w-100" data-bs-ride="carousel" data-bs-interval="5000">
     <div class="carousel-inner">
       <div class="carousel-item active ">
-        <img src="img/banner1.png" class="d-block w-100" alt="..." style="height: 400px; object-fit: fill;">
+        <img src="img/banner1.png" class="d-block w-100" alt="Banner1" style="height: 400px; object-fit: fill;">
       </div>
       <div class="carousel-item">
-        <img src="img/banner2.png" class="d-block w-100" alt="..." style="height: 400px; object-fit: fill;">
+        <img src="img/banner2.png" class="d-block w-100" alt="Banner2" style="height: 400px; object-fit: fill;">
       </div>
       <div class="carousel-item">
-        <img src="img/banner3.png" class="d-block w-100 " alt="..." style="height: 400px; object-fit: fill;">
+        <img src="img/banner3.png" class="d-block w-100 " alt="Banner3" style="height: 400px; object-fit: fill;">
       </div>
        <div class="carousel-item">
-        <img src="img/banner4.png" class="d-block w-100" alt="..." style="height: 400px; object-fit: fill;">
+        <img src="img/banner4.png" class="d-block w-100" alt="Banner4" style="height: 400px; object-fit: fill;">
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">

@@ -5,10 +5,10 @@ document.getElementById("btn").onclick = function () {
   let numero = document.getElementById("numero").value.trim();
   let box = document.getElementById("consent").checked;
   let mensagem = document.getElementById("msg").value.trim();
-
+  let tel = document.getElementById("tel").value.trim();
   let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   
-  if (!nome || !email || !mensagem || !endereco || !numero || !box) {
+  if (!nome || !email || !mensagem || !endereco || !numero || !box || !tel) {
     alert("Por favor, preencha todos os campos e aceite os termos.");
     return;
   }
@@ -25,7 +25,8 @@ document.getElementById("btn").onclick = function () {
     mensagem != "" &&
     endereco != "" &&
     numero != "" &&
-    box == true
+    box == true &&
+    tel !== "" 
   ) {
     alert("Sua mensagem foi enviada com sucesso!");
   }
@@ -35,6 +36,7 @@ document.getElementById("btn").onclick = function () {
     let texto = `Olá! Gostaria de entrar em contato:\n` +
                 `*Nome:* ${nome}\n` +
                 `*Email:* ${email}\n` +
+                `*Telefone:* ${tel}\n`+
                 `*Endereço:* ${endereco},\n nº ${numero}\n` +
                 `*Mensagem:* ${mensagem}\n`;
 
