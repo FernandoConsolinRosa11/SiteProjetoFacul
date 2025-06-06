@@ -37,7 +37,7 @@
       </div>
   
       <div class="text-center">
-        <button type="submit" class="especial btn" id="btn">Enviar mensagem</button>
+        <button type="submit" class="especial btn" id="btn">Enviar mensagem<i class="fa-solid fa-paper-plane m-2"></i></button>
       </div>
     </form>
     <br>

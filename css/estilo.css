@@ -118,15 +118,13 @@ section {
   margin: 0 80px 10px 80px;
 }
 
-svg {
-  margin: 10px;
-}
 
 .grade {
   border: 2px solid var(--darkblue);
   width: 20%;
   margin: 0 5px 0 5px;
   transition: 0.3s all;
+  border-radius: 20px !important;
 }
 .grade:hover {
   box-shadow: 0 0 20px var(--darkblue);
