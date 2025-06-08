@@ -54,7 +54,7 @@
   </section>
   <section id="produtos">
   
-    <h2 class="text-blue text-center mb-4">
+    <h2 class="title text-blue text-center mb-4 ">
       <i class="fa-solid fa-bolt"></i>
       Ofertas
       <i class="fa-solid fa-bolt"></i>

@@ -43,9 +43,11 @@ function exibirProdutos($produtos, $tipoFiltro)
   <div class="container-fluid d-flex " data-aos="fade-right">
     
     <!-- LOGO -->
-    <a class="navbar-brand d-flex" href="home" >
-      <img src="img/logonew.png" alt="logo" title="Logo" style="width: 18%;">
-    </a>
+    <div class="navbar-brand d-flex" >
+      <a href="home">
+        <img src="img/logonew.png" alt="logo" title="Logo" style="width:15%;">
+      </a>
+    </div>
 
     <!-- BOTÃO PARA MENU COLAPSÁVEL NO MOBILE -->
     <button class="navbar-toggler position-absolute end-0 me-3" type="button" data-bs-toggle="collapse"
