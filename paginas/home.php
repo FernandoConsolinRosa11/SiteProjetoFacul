@@ -72,7 +72,7 @@
   </section>
   
   <section id="localizacao" class="bg-blue m-0">
-    <h2 class="title text-white"><i class="fa-solid fa-location-dot m-1"></i>Localização</h2>
+    <h2 class="title text-white"><i class="fa-solid fa-location-dot m-2"></i>Localização</h2>
     <div class="container" data-aos="zoom-in">
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.2844789835212!2d-52.45309392536527!3d-23.772882069395894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ed69f9bffb726b%3A0x50069958cb717bc3!2sAv.%20Melvin%20Jones%2C%20239%20-%20Jardim%20S%C3%A3o%20Pedro%2C%20Terra%20Boa%20-%20PR%2C%2087240-000!5e0!3m2!1spt-BR!2sbr!4v1747515151222!5m2!1spt-BR!2sbr"

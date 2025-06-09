@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
   --darkblue: #0f2366;
@@ -19,7 +20,7 @@ body {
 }
 
 p {
-  font-family: Arial, Helvetica, sans-serif !important;
+  font-family: "Roboto", sans-serif !important;
 }
 h2 {
   text-align: center;
@@ -86,8 +87,10 @@ h2 {
 
 .title {
   font-size: 40px;
-  letter-spacing: 1.5px;
-  margin: 10px 0 10px 0;
+  letter-spacing: 1.2px;
+  margin: 15px 0 10px 0;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
 }
 
 #quemsomos,
@@ -97,6 +100,15 @@ h2 {
 
 #produtos {
   background: #ffffff;
+}
+
+#localizacao .container iframe {
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+  margin: 10px;
+}
+#localizacao .title {
+  margin: 20px !important;
 }
 
 section {
@@ -118,18 +130,36 @@ section {
   margin: 0 80px 10px 80px;
 }
 
-
 .grade {
-  border: 2px solid var(--darkblue);
-  width: 20%;
-  margin: 0 5px 0 5px;
-  transition: 0.3s all;
-  border-radius: 20px !important;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.274);
+  transition: transform 0.3s ease;
+  width: calc(33% - 20px);
+  min-width: 210px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 5px;
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  .text-success{
+    font-weight: 500;
+    color: var(--primary-color);
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
 }
 .grade:hover {
-  box-shadow: 0 0 20px var(--darkblue);
-  transform: scale(1.1);
+  transform: translateY(-15px);
 }
+
 .especial {
   background-color: var(--Red);
   color: var(--Clear);
@@ -145,6 +175,7 @@ section {
   color: var(--Red);
   border: 1px solid var(--Red);
   box-shadow: 0 0 10px var(--Red);
+  transform: translateY(-10px);
 }
 
 .bg-blue {
@@ -161,6 +192,10 @@ section {
 input,
 textarea {
   margin: 5px;
+}
+.title .fa-bolt {
+  color: orange !important; /* Ou outra cor que se destaque */
+  font-size: 1.1em; /* Ligeiramente maior */
 }
 
 /*-------Responsividade---------*/
@@ -182,9 +217,12 @@ textarea {
       }
     }
   }
-
   h2 {
     text-align: center;
+    font-size: 1.5em;
+  }
+  .title{
+    font-size: 26px;
   }
   .navbar-toggler {
     top: 15px;
