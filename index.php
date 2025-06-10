@@ -43,7 +43,7 @@ function exibirProdutos($produtos, $tipoFiltro)
   <div class="container-fluid d-flex " data-aos="fade-right">
     
     <!-- LOGO -->
-    <div class="navbar-brand d-flex" >
+    <div class="navbar-brand" >
       <a href="home">
         <img src="img/logonew.png" alt="logo" title="Logo" style="width:15%;">
       </a>
