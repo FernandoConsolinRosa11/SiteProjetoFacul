@@ -4,18 +4,18 @@
         demais
         produtos,entre em contato direto conosco através da página de contato ou pelas redes sociais.</p>
     <section id="produtos">
-        <h2 class="text-blue">Carnes</h2>
-        <div class="container-flex">
+        <h2 class="text-blue fw-bold fs-1 m-3">Carnes</h2>
+        <div class="container-flex" data-aos="zoom-in">
             <?php exibirProdutos($produtos, 'carne'); ?>
         </div>
 
-        <h2 class="text-blue">Bebidas</h2>
-        <div class="container-flex">
+        <h2 class="text-blue fw-bold fs-1 m-3">Bebidas</h2>
+        <div class="container-flex" data-aos="zoom-in">
             <?php exibirProdutos($produtos, 'bebida'); ?>
         </div>
 
         <br>
 
-        <p class="text-center"><a href="contato" class="especial">Garanta já o seu <i class="fa-solid fa-cart-shopping m-1"></i></a></p>
+        <p class="text-center" ><a href="contato" class="especial" >Garanta já o seu <i class="fa-solid fa-cart-shopping m-1"></i></a></p>
     </section>
 </main>
