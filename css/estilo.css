@@ -167,7 +167,7 @@ section {
   background-color: var(--Red);
   color: var(--Clear);
   padding: 10px;
-  border-radius: 25px;
+  border-radius: 15px;
   text-decoration: none;
   transition: 0.5s all;
   cursor: pointer;
@@ -178,7 +178,6 @@ section {
   color: var(--Red);
   border: 1px solid var(--Red);
   box-shadow: 0 0 10px var(--Red);
-  transform: translateY(-10px);
 }
 
 .bg-blue {
