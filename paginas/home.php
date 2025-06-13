@@ -52,7 +52,7 @@
     </div>
   </div>
   </section>
-  <section id="produtos">
+  <section id="produtos" data-aos="zoom-in">
   
     <h2 class="title text-blue text-center mb-4 ">
       <i class="fa-solid fa-bolt"></i>
@@ -65,8 +65,8 @@
     </div>
   
     <!-- BOTÃO CENTRALIZADO -->
-    <div class="text-center mt-4 mb-5" data-aos="zoom-in">
-      <a href="ofertas" class="especial px-4 py-2"><i class="fa-solid fa-fire m-1"></i>Ver mais ofertas<i class="fa-solid fa-fire m-1"></i></a>
+    <div class="text-center mt-5 mb-2" >
+      <a href="ofertas" class="especial p-3"><i class="fa-solid fa-fire m-1"></i>Ver mais ofertas<i class="fa-solid fa-fire m-1"></i></a>
     </div>
     <br>
   </section>

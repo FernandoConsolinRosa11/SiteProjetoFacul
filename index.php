@@ -16,7 +16,7 @@ function exibirProdutos($produtos, $tipoFiltro)
     echo '<div class="grade">';
     echo '<img src="' . $produto['imagem'] . '" alt="produto' . $produto['nome'] . '" class="w-100">';
     echo '<p class="text-center"><strong>' . $produto['nome'] . '</strong></p>';
-    echo '<p class="text-center text-success">R$ ' . number_format($produto['preco'], 2, ',', '.') . '</p>';
+    echo '<p class="text-center text-success ">R$ ' . number_format($produto['preco'], 2, ',', '.') . '</p>';
     echo '<p class="text-center display-none"><a href="contato" class="especial">Compre já!</a></p>';
     echo '</div>';
   }
@@ -116,7 +116,7 @@ function exibirProdutos($produtos, $tipoFiltro)
           <path d="M16.5 7.5v.01" />
         </svg></a>
     </p>
-    <p class="mx-auto p-2 text-center text-white">Desenvolvido por Fernando Consolin Rosa</p>
+    <p class="mx-auto p-2 text-center text-white">&copy;2025 Mercado Bela Vista - Todos os direitos reservados</p>
   </footer>
 
   <script src="js/aos.js"></script>
