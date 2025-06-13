@@ -52,7 +52,7 @@
     </div>
   </div>
   </section>
-  <section id="produtos">
+  <section id="produtos" data-aos="zoom-in">
   
     <h2 class="title text-blue text-center mb-4 ">
       <i class="fa-solid fa-bolt"></i>
@@ -65,8 +65,8 @@
     </div>
   
     <!-- BOTÃO CENTRALIZADO -->
-    <div class="text-center mt-4 mb-5" data-aos="zoom-in">
-      <a href="ofertas" class="especial px-4 py-2"><i class="fa-solid fa-fire m-1"></i>Ver mais ofertas<i class="fa-solid fa-fire m-1"></i></a>
+    <div class="text-center mt-5 mb-2" >
+      <a href="ofertas" class="especial p-3"><i class="fa-solid fa-fire m-1"></i>Ver mais ofertas<i class="fa-solid fa-fire m-1"></i></a>
     </div>
     <br>
   </section>
@@ -77,7 +77,7 @@
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.2844789835212!2d-52.45309392536527!3d-23.772882069395894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ed69f9bffb726b%3A0x50069958cb717bc3!2sAv.%20Melvin%20Jones%2C%20239%20-%20Jardim%20S%C3%A3o%20Pedro%2C%20Terra%20Boa%20-%20PR%2C%2087240-000!5e0!3m2!1spt-BR!2sbr!4v1747515151222!5m2!1spt-BR!2sbr"
         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade" class="w-100">
+        referrerpolicy="no-referrer-when-downgrade" class="w-100 mb-5">
       </iframe>
     </div>
   </section>
