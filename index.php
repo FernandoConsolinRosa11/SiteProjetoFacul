@@ -11,19 +11,15 @@ function exibirProdutos($produtos, $tipoFiltro)
   // Embaralha a ordem dos produtos filtrados
   shuffle($produtosFiltrados);
 
-  // Exibe os produtos embaralhados
-  foreach ($produtosFiltrados as $produto) {
-    echo '<div class="grade">';
-    echo '<img src="' . $produto['imagem'] . '" alt="produto' . $produto['nome'] . '" class="w-100">';
-    echo '<p class="text-center"><strong>' . $produto['nome'] . '</strong></p>';
-    echo '<p class="text-center text-success">R$ ' . number_format($produto['preco'], 2, ',', '.') . '</p>';
-    echo '<p class="text-center display-none"><a href="contato" class="especial">Compre já!</a></p>';
-    echo '<button class="especial btn-add-carrinho" 
-        data-id="' . $produto['id'] . '" 
-        data-nome="' . $produto['nome'] . '" 
-        data-preco="' . $produto['preco'] . '"><i class="fa-solid fa-cart-plus"></i></button>';
-    echo '</div>';
-  }
+    // Exibe os produtos embaralhados
+    foreach ($produtosFiltrados as $produto) {
+        echo '<div class="grade">';
+        echo '<img src="' . $produto['imagem'] . '" alt="produto' . $produto['nome'] . '" class="w-100">';
+        echo '<p class="text-center"><strong>' . $produto['nome'] . '</strong></p>';
+        echo '<p class="text-center text-success">R$ ' . number_format($produto['preco'], 2, ',', '.') . '</p>';
+        echo '<p class="text-center display-none"><a href="contato" class="especial">Compre já!</a></p>';
+        echo '</div>';
+    }
 }
 
 ?>
@@ -35,7 +31,7 @@ function exibirProdutos($produtos, $tipoFiltro)
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mercado Bela Vista</title>
-  <base href="http://localhost/DevModerna/SiteProjetoFacul-main/home">
+  <base href="http://localhost/PHP/SiteProjetoFacul/">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/estilo.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -60,35 +56,32 @@ function exibirProdutos($produtos, $tipoFiltro)
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <!-- LINKS DO MENU -->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="home" title="Início">Início</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="ofertas" title="Ofertas">Ofertas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="carrinho" title="Contato">Carrinho</a>
-          </li>
-            <li class="nav-item">
-            <a class="nav-link" href="contato" title="Contato">Contato</a>
-          </li>
-        </ul>
-      </div>
+    <!-- LINKS DO MENU -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="home" title="Início">Início</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ofertas" title="Ofertas">Ofertas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contato" title="Contato">Contato</a>
+        </li>
+      </ul>
     </div>
-  </nav>
-  <?php
-
-  if (isset($_GET['param'])) {
-    $param = $_GET['param'];
-    //separar o parametor por /
-    $p = explode("/", $param);
-    //print_r($_GET);
-  }
-  $page = $p[0] ?? "home";
-  $ofertas = $p[1] ?? "ofertas";
+  </div>
+</nav>
+    <?php
+ 
+    if (isset($_GET['param'])) {
+      $param = $_GET['param'];
+      //separar o parametor por /
+      $p = explode("/", $param);
+      //print_r($_GET);
+    }
+    $page = $p[0] ?? "home";
+    $ofertas = $p[1] ?? "ofertas";
 
   if ($page == "ofertas") {
     $pagina = "paginas/{$ofertas}.php";
@@ -123,7 +116,7 @@ function exibirProdutos($produtos, $tipoFiltro)
           <path d="M16.5 7.5v.01" />
         </svg></a>
     </p>
-    <p class="mx-auto p-2 text-center text-white">Desenvolvido por Fernando Consolin Rosa</p>
+    <p class="mx-auto p-2 text-center text-white">&copy;2025 Mercado Bela Vista - Todos os direitos reservados</p>
   </footer>
 
   <script src="js/aos.js"></script>
