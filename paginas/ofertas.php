@@ -14,6 +14,11 @@
             <?php exibirProdutos($produtos, 'bebida'); ?>
         </div>
 
+        <h2 class="text-blue">Achocolatado</h2>
+        <div class="container-flex">
+            <?php exibirProdutos($produtos, 'achocolatado'); ?>
+        </div>
+        
         <br>
 
         <p class="text-center mt-4 mb-5" ><a href="contato" class="especial p-3" >Garanta já o seu <i class="fa-solid fa-cart-shopping m-1"></i></a></p>

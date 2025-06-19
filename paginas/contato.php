@@ -42,5 +42,18 @@
     </form>
     <br>
   </div>
-
 </main>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const mensagem = localStorage.getItem('mensagemContato');
+    const textarea = document.getElementById('mensagem');
+
+    if (mensagem && textarea) {
+      textarea.value = mensagem;
+
+      // Limpa dados após preenchimento
+      localStorage.removeItem('mensagemContato');
+      localStorage.removeItem('carrinho');
+    }
+  });
+</script>

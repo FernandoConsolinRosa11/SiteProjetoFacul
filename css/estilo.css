@@ -167,7 +167,7 @@ section {
   background-color: var(--Red);
   color: var(--Clear);
   padding: 10px;
-  border-radius: 5px ;
+  border-radius: 15px ;
   text-decoration: none;
   transition: 0.5s all;
   cursor: pointer;
@@ -199,7 +199,9 @@ textarea {
   color: orange !important; /* Ou outra cor que se destaque */
   font-size: 1.1em; /* Ligeiramente maior */
 }
-
+.table-blue{
+  color: var(--darkblue);
+}
 /*-------Responsividade---------*/
 
 @media (max-width: 991.98px) {
@@ -232,5 +234,8 @@ textarea {
   }
   #carouselExampleAutoplaying {
     display: none;
+  }
+  .footer{
+    margin:0;
   }
 }

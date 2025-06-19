@@ -3,26 +3,39 @@ $produtos = json_decode(file_get_contents('js/produtos.json'), true);
 
 function exibirProdutos($produtos, $tipoFiltro)
 {
-  // Filtra só os produtos do tipo desejado
   $produtosFiltrados = array_filter($produtos, function ($produto) use ($tipoFiltro) {
     return $produto['tipo'] === $tipoFiltro;
   });
 
-  // Embaralha a ordem dos produtos filtrados
   shuffle($produtosFiltrados);
 
-    // Exibe os produtos embaralhados
-    foreach ($produtosFiltrados as $produto) {
-        echo '<div class="grade">';
-        echo '<img src="' . $produto['imagem'] . '" alt="produto' . $produto['nome'] . '" class="w-100">';
-        echo '<p class="text-center"><strong>' . $produto['nome'] . '</strong></p>';
-        echo '<p class="text-center text-success">R$ ' . number_format($produto['preco'], 2, ',', '.') . '</p>';
-        echo '<p class="text-center display-none"><a href="contato" class="especial">Compre já!</a></p>';
-        echo '</div>';
-    }
-}
+  foreach ($produtosFiltrados as $produto) {
+    echo '<div class="grade">';
+    echo '<img src="' . $produto['imagem'] . '" alt="produto ' . $produto['nome'] . '" class="w-100">';
+    echo '<p class="text-center"><strong>' . $produto['nome'] . '</strong></p>';
+    echo '<p class="text-center text-success">R$ ' . number_format($produto['preco'], 2, ',', '.') . '</p>';
 
+    echo '<p class="btn-add-carrinho text-center">';
+    // Criamos um array associativo com os dados do produto
+    $itemData = [
+        'id' => $produto['id'],
+        'nome' => $produto['nome'],
+        'preco' => $produto['preco'],
+        'unidade' => $produto['unidade'],
+        'imagem' => $produto['imagem'] // Adicione a imagem para exibir no carrinho, se desejar
+    ];
+    // Convertemos o array para JSON para armazenar no atributo data-item
+    echo '<button class="especial adicionar-ao-carrinho" data-item=\'' . json_encode($itemData) . '\'>';
+    echo 'Adicionar ao Carrinho';
+    echo '</button>';
+    echo '</p>';
+
+    echo '</div>';
+  }
+}
 ?>
+
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -31,7 +44,7 @@ function exibirProdutos($produtos, $tipoFiltro)
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mercado Bela Vista</title>
-  <base href="http://localhost/PHP/SiteProjetoFacul/">
+  <base href="http://localhost/DevModerna/SiteProjetoFacul-main/">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/estilo.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -56,32 +69,35 @@ function exibirProdutos($produtos, $tipoFiltro)
         <span class="navbar-toggler-icon"></span>
       </button>
 
-    <!-- LINKS DO MENU -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="home" title="Início">Início</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="ofertas" title="Ofertas">Ofertas</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contato" title="Contato">Contato</a>
-        </li>
-      </ul>
+      <!-- LINKS DO MENU -->
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="home" title="Início">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ofertas" title="Ofertas">Ofertas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="carrinho" title="Ofertas">Carrinho</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contato" title="Contato">Contato</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-</nav>
-    <?php
- 
-    if (isset($_GET['param'])) {
-      $param = $_GET['param'];
-      //separar o parametor por /
-      $p = explode("/", $param);
-      //print_r($_GET);
-    }
-    $page = $p[0] ?? "home";
-    $ofertas = $p[1] ?? "ofertas";
+  </nav>
+  <?php
+
+  if (isset($_GET['param'])) {
+    $param = $_GET['param'];
+    //separar o parametor por /
+    $p = explode("/", $param);
+    //print_r($_GET);
+  }
+  $page = $p[0] ?? "home";
+  $ofertas = $p[1] ?? "ofertas";
 
   if ($page == "ofertas") {
     $pagina = "paginas/{$ofertas}.php";
@@ -128,18 +144,16 @@ function exibirProdutos($produtos, $tipoFiltro)
       integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
       crossorigin="anonymous"></script>
   <script src="js/aos.js"></script>
-  <script src="js/fslightbox.js"></script>
-
   </script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
     crossorigin="anonymous"></script>
-  <script src="js/verificacao.js">
   </script>
-  <script src="js/carrinho.js"></script>
+  <script src="js/verificacao.js"></script>
   <script src="https://kit.fontawesome.com/963c23cf13.js" crossorigin="anonymous"></script>
-
+  <script src="js/carrinho.js"></script>
+  <script src="js/paginacarrinho.js"></script>
 </body>
 
 </html>

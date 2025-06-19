@@ -1,19 +1,19 @@
 [
   {
     "nome": "Peito de frango Kg",
-    "preco": 21.90,
+    "preco": 21.9,
     "imagem": "img/peitodefrango.png",
     "tipo": "carne",
     "unidade": "Kg",
-    "id":1000 
-    },
+    "id": 1000
+  },
   {
     "nome": "Bisteca de Porco Kg",
     "preco": 14.79,
     "imagem": "img/bistecadeporco.png",
     "tipo": "carne",
     "unidade": "Kg",
-    "id":1001
+    "id": 1001
   },
   {
     "nome": "Heineken 330ml",
@@ -29,7 +29,7 @@
     "imagem": "img/postavermelhabovina.png",
     "tipo": "carne",
     "unidade": "Kg",
-    "id":1003
+    "id": 1003
   },
   {
     "nome": "Coxinha da asa Kg",
@@ -37,7 +37,7 @@
     "imagem": "img/coxinhadaasa.png",
     "tipo": "carne",
     "unidade": "Kg",
-    "id":1004
+    "id": 1004
   },
   {
     "nome": "Sardinha 800g",
@@ -45,46 +45,70 @@
     "imagem": "img/sardinhaespalmada.png",
     "tipo": "carne",
     "unidade": "g",
-    "id":1005
+    "id": 1005
   },
-    {
+  {
     "nome": "Skol Pilsen 350ml",
     "preco": 3.09,
     "imagem": "img/skolpilsen.png",
     "tipo": "bebida",
     "unidade": "Ml",
-    "id":2000
+    "id": 2000
   },
-    {
+  {
     "nome": "Spaten 473ml",
     "preco": 5.19,
     "imagem": "img/spaten350ml.png",
     "tipo": "bebida",
     "unidade": "Ml",
-    "id":2001
+    "id": 2001
   },
-    {
+  {
     "nome": "Eisenbahn 350ml",
     "preco": 3.99,
     "imagem": "img/eisen350ml.png",
     "tipo": "bebida",
     "unidade": "Ml",
-    "id":2002
+    "id": 2002
   },
-    {
+  {
     "nome": "Amstel 350ml",
     "preco": 3.59,
     "imagem": "img/amstel350ml.png",
     "tipo": "bebida",
     "unidade": "Ml",
-    "id":2003
+    "id": 2003
   },
   {
     "nome": "Toddy 750g",
-    "preco": 10.00,
-    "imagem": "img/amstel350ml.png",
+    "preco": 19.99,
+    "imagem": "img/toddy750g.png",
     "tipo": "achocolatado",
     "unidade": "g",
-    "id":3000
+    "id": 3000
+  },
+  {
+    "nome": "Nescau 370g",
+    "preco": 10.45,
+    "imagem": "img/nescau370g.png",
+    "tipo": "achocolatado",
+    "unidade": "g",
+    "id": 3001
+  },
+  {
+    "nome": "Toddy 1,02kg",
+    "preco": 24.69,
+    "imagem": "img/toddy102kg.png",
+    "tipo": "achocolatado",
+    "unidade": "g",
+    "id": 3002
+  },
+  {
+    "nome": "Apti Power 370g",
+    "preco": 8.39,
+    "imagem": "img/aptipower.png",
+    "tipo": "achocolatado",
+    "unidade": "g",
+    "id": 3003
   }
 ]
