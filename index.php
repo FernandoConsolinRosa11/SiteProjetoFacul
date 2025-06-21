@@ -13,23 +13,7 @@ function exibirProdutos($produtos, $tipoFiltro)
     echo '<div class="grade">';
     echo '<img src="' . $produto['imagem'] . '" alt="produto ' . $produto['nome'] . '" class="w-100">';
     echo '<p class="text-center"><strong>' . $produto['nome'] . '</strong></p>';
-    echo '<p class="text-center text-success">R$ ' . number_format($produto['preco'], 2, ',', '.') . '</p>';
-
-    echo '<p class="btn-add-carrinho text-center">';
-    // Criamos um array associativo com os dados do produto
-    $itemData = [
-        'id' => $produto['id'],
-        'nome' => $produto['nome'],
-        'preco' => $produto['preco'],
-        'unidade' => $produto['unidade'],
-        'imagem' => $produto['imagem'] // Adicione a imagem para exibir no carrinho, se desejar
-    ];
-    // Convertemos o array para JSON para armazenar no atributo data-item
-    echo '<button class="especial adicionar-ao-carrinho" data-item=\'' . json_encode($itemData) . '\'>';
-    echo 'Adicionar ao Carrinho';
-    echo '</button>';
-    echo '</p>';
-
+    echo '<span class="text-center text-success">R$ ' . number_format($produto['preco'], 2, ',', '.') . '</span>';
     echo '</div>';
   }
 }
@@ -77,9 +61,6 @@ function exibirProdutos($produtos, $tipoFiltro)
           </li>
           <li class="nav-item">
             <a class="nav-link" href="ofertas" title="Ofertas">Ofertas</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="carrinho" title="Ofertas">Carrinho</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contato" title="Contato">Contato</a>
@@ -152,8 +133,6 @@ function exibirProdutos($produtos, $tipoFiltro)
   </script>
   <script src="js/verificacao.js"></script>
   <script src="https://kit.fontawesome.com/963c23cf13.js" crossorigin="anonymous"></script>
-  <script src="js/carrinho.js"></script>
-  <script src="js/paginacarrinho.js"></script>
 </body>
 
 </html>

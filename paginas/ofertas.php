@@ -4,17 +4,17 @@
         demais
         produtos,entre em contato direto conosco através da página de contato ou pelas redes sociais.</p>
     <section id="produtos">
-        <h2 class="text-blue">Carnes</h2>
+        <h2 class="text-blue fs-1 fw-bold m-3">Carnes</h2>
         <div class="container-flex">
             <?php exibirProdutos($produtos, 'carne'); ?>
         </div>
 
-        <h2 class="text-blue">Bebidas</h2>
+        <h2 class="text-blue fs-1 fw-bold m-3">Bebidas</h2>
         <div class="container-flex">
             <?php exibirProdutos($produtos, 'bebida'); ?>
         </div>
 
-        <h2 class="text-blue">Achocolatado</h2>
+        <h2 class="text-blue fs-1 fw-bold m-3">Achocolatados</h2>
         <div class="container-flex">
             <?php exibirProdutos($produtos, 'achocolatado'); ?>
         </div>
