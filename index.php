@@ -14,6 +14,9 @@ function exibirProdutos($produtos, $tipoFiltro)
     echo '<img src="' . $produto['imagem'] . '" alt="produto ' . $produto['nome'] . '" class="w-100">';
     echo '<p class="text-center"><strong>' . $produto['nome'] . '</strong></p>';
     echo '<span class="text-center text-success">R$ ' . number_format($produto['preco'], 2, ',', '.') . '</span>';
+    echo '<div class="text-center d-block d-md-none mt-2">';
+    echo '<a href="contato" class="btn btn-danger">Compre já</a>';
+    echo '</div>';
     echo '</div>';
   }
 }
@@ -132,6 +135,7 @@ function exibirProdutos($produtos, $tipoFiltro)
     crossorigin="anonymous"></script>
   </script>
   <script src="js/verificacao.js"></script>
+  <script src="js/VerMaisBtn.js"></script>
   <script src="https://kit.fontawesome.com/963c23cf13.js" crossorigin="anonymous"></script>
 </body>
 

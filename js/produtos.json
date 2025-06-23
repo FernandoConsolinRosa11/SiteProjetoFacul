@@ -9,7 +9,7 @@
   },
   {
     "nome": "Bisteca de Porco Kg",
-    "preco": 14.79,
+    "preco": 14.99,
     "imagem": "img/bistecadeporco.png",
     "tipo": "carne",
     "unidade": "Kg",
@@ -111,12 +111,93 @@
     "unidade": "g",
     "id": 3003
   },
-   {
+  {
     "nome": "Apti Power 370g",
     "preco": 8.39,
     "imagem": "img/aptipower.png",
     "tipo": "achocolatado",
     "unidade": "g",
     "id": 3003
+  },
+  {
+    "nome": "Pinho Sol Floral 500ml",
+    "preco": 6.99,
+    "imagem": "img/pinhofloral.png",
+    "tipo": "limpeza",
+    "unidade": "ml",
+    "id": 4000
+  },
+  {
+    "nome": "Sabão em pó GirandoSol 800g",
+    "preco": 8.39,
+    "imagem": "img/opticalwash.png",
+    "tipo": "limpeza",
+    "unidade": "ml",
+    "id": 4001
+  },
+  {
+    "nome": "Veja Multiuso Floral 500ml",
+    "preco": 3.99,
+    "imagem": "img/vejamfloral.png",
+    "tipo": "limpeza",
+    "unidade": "ml",
+    "id": 4002
+  },
+  {
+    "nome": "Omo Lavagem Perfeita 1,6kg",
+    "preco": 25.59,
+    "imagem": "img/omovermelho16kg.png",
+    "tipo": "limpeza",
+    "unidade": "g",
+    "id": 4003
+  },
+  {
+    "nome": "Detergente Ypê 500ml",
+    "preco": 2.69,
+    "imagem": "img/ype.png",
+    "tipo": "limpeza",
+    "unidade": "ml",
+    "id": 4004
+  },
+  {
+    "nome": "Café 3 Corações Extraforte",
+    "preco": 32.89,
+    "imagem": "img/cafe3cextraf.png",
+    "tipo": "café",
+    "unidade": "g",
+    "id": 5000
+  },
+  {
+    "nome": "Café 3 Corações Tradicional",
+    "preco": 34.99,
+    "imagem": "img/cafe3ctrad.png",
+    "tipo": "café",
+    "unidade": "g",
+    "id": 5001
+  },
+  {
+    "nome": "Nescafé Tradição 100g",
+    "preco": 7.35,
+    "imagem": "img/nescafe100gtrad.png",
+    "tipo": "café",
+    "unidade": "g",
+    "id": 5002
+  },
+  {
+    "nome": "Café Itamaraty Tradicional",
+    "preco": 32.49,
+    "imagem": "img/cafeitatrad.png",
+    "tipo": "café",
+    "unidade": "g",
+    "id": 5003
+  },
+  {
+    "nome": "Café Itamaraty Extraforte",
+    "preco": 32.89,
+    "imagem": "img/cafeitaextraf.png",
+    "tipo": "café",
+    "unidade": "g",
+    "id": 5004
   }
+  
 ]
