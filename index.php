@@ -36,6 +36,14 @@ function exibirProdutos($produtos, $tipoFiltro)
   <link rel="stylesheet" href="css/estilo.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+  <style>
+    @media (max-width: 991.98px) {
+      .navbar-brand img{
+        margin-left:40px;
+        transform: scale(2.5);
+      }
+    }
+  </style>
 </head>
 
 <body>

@@ -199,8 +199,6 @@ textarea {
   color: var(--darkblue);
 }
 button#verMaisBtn{
-  border: none !important;
-  background-color: var(--Clear);
   letter-spacing: 1.1px;
 }
 button#verMaisBtn:hover{

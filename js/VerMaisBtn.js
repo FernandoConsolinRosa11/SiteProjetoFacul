@@ -1,9 +1,10 @@
 document.getElementById("verMaisBtn").addEventListener("click", function () {
   const itensOcultos = document.querySelectorAll(".display-none");
+  const estaMostrando = this.textContent === "Esconder";
 
   itensOcultos.forEach(item => {
-    item.style.display = "block";
+    item.style.display = estaMostrando ? "none" : "block";
   });
 
-  this.style.display = "none"; // esconde o botão depois de clicar
+  this.textContent = estaMostrando ? "Ver mais" : "Esconder";
 });

@@ -34,7 +34,7 @@
             </div>
         </div>
 
-        <p class="text-center m-5"><button id="verMaisBtn">Ver mais</button></p>
+        <p class="text-center m-5"><button id="verMaisBtn" class=" btn btn-light">Ver mais</button></p>
 
         <p class="text-center mb-5"><a href="contato" class="especial p-3">Garanta já o seu <i
                     class="fa-solid fa-cart-shopping m-1"></i></a></p>
