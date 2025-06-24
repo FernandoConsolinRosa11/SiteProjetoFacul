@@ -1,5 +1,5 @@
 <main class="main">
-  <div id="carouselExampleAutoplaying" class="carousel slide w-100" data-bs-ride="carousel" data-bs-interval="5000">
+  <div id="carouselExampleAutoplaying" class="carousel slide w-100" data-bs-ride="carousel" data-bs-interval="3000">
     <div class="carousel-inner">
       <div class="carousel-item active ">
         <img src="img/banner1.png" class="d-block w-100" alt="Banner1" style="height: 400px; object-fit: fill;">
@@ -61,7 +61,7 @@
     </h2>
   
     <div class="container-flex" data-aos="zoom-in">
-      <?php exibirProdutos($produtos, 'carne'); ?>
+      <?php exibirProdutos($produtos, 'carne',); ?>
     </div>
   
     <!-- BOTÃO CENTRALIZADO -->
@@ -71,7 +71,7 @@
     <br>
   </section>
   
-  <section id="localizacao" class="bg-blue m-0">
+  <section id="localizacao" class="bg-blue m-0 ">
     <h2 class="title text-white"><i class="fa-solid fa-location-dot m-2"></i>Localização</h2>
     <div class="container" data-aos="zoom-in">
       <iframe

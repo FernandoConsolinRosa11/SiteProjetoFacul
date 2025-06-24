@@ -31,7 +31,7 @@ document.getElementById("btn").onclick = function () {
     alert("Sua mensagem foi enviada com sucesso!");
   }
    // Número do WhatsApp 
-    let numeroWhats = "4499583036"; 
+    let numeroWhats = "44999891143"; 
 
     let texto = `Olá! Gostaria de entrar em contato:\n` +
                 `*Nome:* ${nome}\n` +

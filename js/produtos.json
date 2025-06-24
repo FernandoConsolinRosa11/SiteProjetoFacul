@@ -103,13 +103,13 @@
     "unidade": "g",
     "id": 3002
   },
-  {
-    "nome": "Apti Power 370g",
-    "preco": 8.39,
-    "imagem": "img/aptipower.png",
+   {
+    "nome": "Apti Power 500g",
+    "preco": 14.99,
+    "imagem": "img/aptipower500.webp",
     "tipo": "achocolatado",
     "unidade": "g",
-    "id": 3003
+    "id": 3004
   },
   {
     "nome": "Apti Power 370g",

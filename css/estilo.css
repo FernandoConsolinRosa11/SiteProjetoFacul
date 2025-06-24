@@ -50,12 +50,13 @@ h2 {
 .main {
   padding-top: 80px;
 }
-.footer {
+footer {
   background-color: var(--darkblue);
-  height: 120px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.747);
   z-index: 100;
-  position: absolute;
+  position: relative;
+  padding: 20px 0; 
+  width: 100%;
   a {
     color: #fff;
     margin: 0 10px;
@@ -69,6 +70,9 @@ h2 {
   .icon:hover {
     color: var(--Yellow) !important;
     transform: scale(1.3);
+  }
+  li{
+    list-style: none;
   }
 }
 .show {
@@ -204,7 +208,6 @@ button#verMaisBtn{
 button#verMaisBtn:hover{
   text-decoration: underline;
 }
-
 /*-------Responsividade---------*/
 
 @media (max-width: 991.98px) {
@@ -238,7 +241,5 @@ button#verMaisBtn:hover{
   #carouselExampleAutoplaying {
     display: none;
   }
-  .footer {
-    margin: 0;
-  }
+
 }

@@ -36,10 +36,12 @@ function exibirProdutos($produtos, $tipoFiltro)
   <link rel="stylesheet" href="css/estilo.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="shortcut icon" href="img/favicon.jpg" type="image/x-icon">
+  <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
+  <link href='https://cdn.boxicons.com/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
   <style>
     @media (max-width: 991.98px) {
-      .navbar-brand img{
-        margin-left:40px;
+      .navbar-brand img {
+        margin-left: 40px;
         transform: scale(2.5);
       }
     }
@@ -103,29 +105,66 @@ function exibirProdutos($produtos, $tipoFiltro)
     include "paginas/erro.php";
   }
   ?>
-  <footer class="footer w-100">
-    <p class="mx-auto p-2 text-center">
-      <a href="https://whats.link/mercadobelavista" target="_blank" title="WhatsApp"><svg
-          xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-          class="icon icon-tabler icons-tabler-outline icon-tabler-brand-whatsapp">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-          <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
-          <path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" />
-        </svg></a>
+<footer class="w-100 text-white pt-4 px-3">
+  <!-- Redes sociais -->
+   
+  <div class="d-flex justify-content-center gap-4 mb-3">
+    <a href="https://whats.link/mercadobelavista" target="_blank" title="WhatsApp" class="text-white">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+        class="icon icon-tabler icon-tabler-brand-whatsapp">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+        <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+        <path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" />
+      </svg>
+    </a>
+    <a href="https://www.instagram.com/mercadobelavista8/?next=%2F" target="_blank" title="Instagram"
+      class="text-white">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+        class="icon icon-tabler icon-tabler-brand-instagram">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+        <path d="M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+        <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+        <path d="M16.5 7.5v.01" />
+      </svg>
+    </a>
+  </div>
 
-      <a href="https://www.instagram.com/mercadobelavista8/?next=%2F" target="_blank" title="Instagram"><svg
-          xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-          class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-          <path d="M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
-          <path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
-          <path d="M16.5 7.5v.01" />
-        </svg></a>
-    </p>
-    <p class="mx-auto p-2 text-center text-white">&copy;2025 Mercado Bela Vista - Todos os direitos reservados</p>
-  </footer>
+  <!-- Conteúdo principal -->
+  <div class="container">
+    <div class="row text-center text-md-start">
+      <!-- Pagamento -->
+      <div class="col-md-6 mb-4">
+        <p class="fw-bold">Formas de Pagamento</p>
+         <!-- Imagem para telas grandes -->
+        <img src="img/formasdep.png" alt="formas de pagamento" class="img-fluid w-75 d-none d-md-block">
+
+        <!-- Imagem para telas pequenas -->
+        <img src="img/formasdepresp.png" alt="formas de pagamento responsivo" class="img-fluid w-75 d-block d-md-none mx-auto">
+      </div>
+      <!-- Avisos -->
+      <div class="col-md-6">
+        <p class="fw-bold">Informações Importantes</p>
+        <p class="small">
+          *Informamos que os preços, ofertas e condições de pagamento são exclusivos para internet válidos para o dia de hoje, podendo sofrer alterações sem aviso prévio.
+        </p>
+        <p class="small">
+          *O pedido será concluído de acordo com a disponibilidade em nosso estoque. Caso ocorra a falta de algum item, este não será entregue e o valor correspondente não será cobrado.
+        </p>
+        <p class="small">
+          *O valor mínimo para cada pedido é de R$ 25,00.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Rodapé final -->
+  <div class="text-center mt-3 pb-3">
+    <p class="mb-0 small fw-bold">&copy;2025 Mercado Bela Vista - Todos os direitos reservados</p>
+  </div>
+</footer>
+
 
   <script src="js/aos.js"></script>
   <script>
