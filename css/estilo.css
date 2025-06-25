@@ -64,12 +64,13 @@ footer {
   }
   .icon {
     margin: 5px;
+    transform: scale(1.5) !important;
     color: var(--Clear) !important;
     transition: 0.3s all;
   }
   .icon:hover {
     color: var(--Yellow) !important;
-    transform: scale(1.3);
+    transform: scale(1.7) !important;
   }
   li{
     list-style: none;
