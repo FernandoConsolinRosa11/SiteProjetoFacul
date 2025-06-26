@@ -14,8 +14,8 @@ function exibirProdutos($produtos, $tipoFiltro)
     echo '<img src="' . $produto['imagem'] . '" alt="produto ' . $produto['nome'] . '" class="w-100">';
     echo '<p class="text-center"><strong>' . $produto['nome'] . '</strong></p>';
     echo '<span class="text-center text-success">R$ ' . number_format($produto['preco'], 2, ',', '.') . '</span>';
-    echo '<div class="text-center d-block d-md-none mt-2">';
-    echo '<a href="contato" class="btn btn-danger">Compre já</a>';
+    echo '<div class="text-center d-block d-md-none my-4">';
+    echo '<a href="contato" class="especial">Compre já</a>';
     echo '</div>';
     echo '</div>';
   }
@@ -31,7 +31,7 @@ function exibirProdutos($produtos, $tipoFiltro)
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mercado Bela Vista</title>
-  <base href="http://localhost/DevModerna/SiteProjetoFacul-main/">
+  <base href="http://localhost/DevModerna/SiteMercadoBelaVista/">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/estilo.css">
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
